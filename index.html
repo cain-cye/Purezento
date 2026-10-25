@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Beloved, Leandro</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="bg-hearts">
+    <div class="heart">🩵</div>
+    <div class="heart">🤍</div>
+    <div class="heart">🩵</div>
+    <div class="heart">🤍</div>
+    <div class="heart">🩵</div>
+  </div>
+
+  <div class="container">
+    <div class="card header-card">
+      <div class="subtitle">Happiest Monthsary</div>
+      <h1 id="recipientHeader">Aking Tinatangi 𖹭</h1>
+    </div>
+
+    <div class="card photo-card">
+      <div class="polaroid-frame">
+        <div class="polaroid-img-wrapper">
+          <img id="couplePhoto" src="caiunne.jpg" alt="Us Together">
+        </div>
+        <div class="polaroid-caption">us, my favorite ♡</div>
+      </div>
+    </div>
+
+    <div class="card letter-card">
+      <h2 id="letterTitle">To the One Who Holds My Heart</h2>
+      <div class="letter-content" id="letterParagraphs"></div>
+    </div>
+
+    <div class="card playlist-card">
+      <h2>Songs That Remind Me of You</h2>
+
+      <div class="now-playing-box">
+        <div class="sound-wave" id="soundWave">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+
+        <div class="song-title" id="songTitle">Select a Song</div>
+        <div class="song-artist" id="songArtist">-</div>
+        <div class="song-note" id="songNote">"Click any track below to start playing."</div>
+        
+        <audio id="audioPlayer" controls>
+          <source id="audioSource" src="" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <div class="playlist-list" id="playlistContainer"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
